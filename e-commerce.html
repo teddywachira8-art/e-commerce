@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .head{
+                height:55px;
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                position:fixed;
+                top:0;
+                right:0;
+                left:0;
+                background-color: blueviolet;
+
+
+            }
+            .step{
+                font-family: Arial;
+                font-weight: bold;
+                font-size:20px;
+            }
+            .navigation{
+                font-family: Arial;
+                display:flex;
+                flex-direction: row;
+                gap:20px;
+            }
+            .search{
+                margin-right:30px;
+            }
+            .bar{
+                border:solid 1px;
+                border-radius:10px;
+            }
+            .first{
+                font-family: Arial;
+                font-size:15px;
+                color:purple;
+                
+            }
+            .second{
+                font-family:Arial;
+                font-size:40px;
+                font-weight:bold;
+                margin-top:-5px;
+            }
+            .third{
+                font-family:Arial;
+                font-size:40px;
+                font-weight:bold;
+                margin-top:-30px;
+                color:purple;
+
+            }
+            .forth{
+                font-family:Arial;
+                font-size:12px;
+                width:200px;
+            }
+            .button{
+                background-color: blueviolet;
+                color:white;
+                border-radius: 10px;
+                cursor:pointer;
+            }
+            .shoe{
+                height:300px;
+            
+            }
+            .sec{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border:solid blue;
+                padding:10px 20px;
+            }
+            .dunks{
+                margin-right:200px;
+            }
+            .apart{
+                margin-top:20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border:solid blue;
+                padding:10px 20px;
+                margin-top:-5px;
+            }
+            .shoes{
+                height:30px;
+            }
+            .feature{
+                font-family: Arial;
+                font-weight:bold;
+                font-size:20px;
+            }
+            .dunk1{
+                height:150px;
+            }
+            .blue{
+                position:relative;
+                
+            }
+            .new{
+                position:absolute;
+                top:5px;
+                left:10px;
+            }
+            .one{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .lorry{
+                display: grid;
+                grid-template-columns: 1fr 250px;
+            }
+            .car{
+                height:20px;
+            }
+    
+        </style>
+    </head>
+    <body style="padding-top:60px;
+    padding-bottom:1000px;">
+        <main>
+            <header class="head">
+                <div class="step">
+                    STEPZ
+                </div>
+
+                <nav class="navigation">
+                 <a href="#Home">Home</a>
+                 <a href="#Shop">Shop</a>
+                 <a href="#About">About</a>
+                 <a href="#Contact">Contact</a>   
+                </nav>
+
+                <div class="search">
+                    <input class="bar" type="text" placeholder="Search shoes">
+                </div>
+            </header>
+
+            <section class="sec">
+                <div>
+                    <h1 class="first">STEP INTO STYLE</h1>
+                    <h2 class="second">Better Shoes</h2>
+                    <h3 class="third">Bigger Dreams</h3>
+                    <p class="forth">Discover the perfect pair for every ocassion.Style,comfort and quality-all in one place</p>
+                    <button class="button">Shop now</button>
+                </div>
+
+                <div class="dunks">
+                    <img class="shoe" src="thumb nails/shoes.dunks.jpg">
+                </div>
+            </section>
+
+            <section class="apart">
+                <img class="shoes" src="icons/shoe 1.png">
+                <img class="shoes" src="icons/shoe 2.png">
+                <img class="shoes" src="icons/shoe 3.png">
+                <img class="shoes" src="icons/shoe 4.jpg">
+                <img class="shoes" src="icons/shoe 5.png">
+                <img class="shoes" src="icons/shoe 6.png">
+            </section>
+
+            <section>
+                <p class="feature">Featured Products</p>
+                <div class="one">
+                <div class="blue">
+                    <img class="dunk1" src="thumb nails/dunk 1.jpg">
+                    <p class="new">NEW</p>
+                    <p>Nike Airforce 1</p>
+                    <p>
+                        KSH 7,500
+                        <del>Ksh 6,500</del>
+                    </p>
+                    <button>ADD TO CART</button>
+                </div>
+
+        <div class="blue">
+                    <img class="dunk1" src="thumb nails/dunk 2.jpg">
+                    <p class="new">Popular</p>
+                    <p>Air Jordan 4 Retro</p>
+                    <p>
+                        KSH 14,999
+                        <del>Ksh 17,599</del>
+                    </p>
+                    <button>ADD TO CART</button>
+                </div>
+
+  <div class="blue">
+                    <img class="dunk1" src="thumb nails/dunk 3.jpg">
+                    <p class="new">sold</p>
+                    <p>Addidas Ultraboost 22</p>
+                    <p>
+                        KSH11,500
+                        <del>ksh 45,000</del>
+                    </p>
+                    <button>ADD TO CART</button>
+                </div>
+
+  <div class="blue">
+                    <img class="dunk1" src="thumb nails/dunk 4.jpg">
+                    <p class="new">popular</p>
+                    <p>Vans Old Skool</p>
+                    <p>
+                        KSH 5,500
+                        <del>ksh 7,000</del>
+                    </p>
+                    <button>ADD TO CART</button>
+                </div>
+                </div>
+
+            </section>
+
+        
+
+        </main>
+        
+    </body>
+</html>
